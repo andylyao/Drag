@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="这是一个button"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="这是一个EditText"/>
+
+	<RadioButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Switch"
+		android:id="@+id/switch1"
+		android:layout_gravity="center_horizontal"/>
+
+	<ToggleButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New ToggleButton"
+		android:id="@+id/toggleButton"
+		android:layout_gravity="center_horizontal"/>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView"
+		android:layout_gravity="center_horizontal"/>
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/progressBar"
+		android:layout_gravity="center_horizontal"/>
+
+	<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner"
+		android:layout_gravity="center_horizontal"/>
+
+	<TextClock
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textClock"
+		android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

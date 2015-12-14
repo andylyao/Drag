@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="@android:color/white">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="这是Drag Activity"/>
+
+	<Button
+		android:id="@+id/normal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="普通widget样式"/>
+	<Button
+		android:id="@+id/list"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="list样式"/>
+	<Button
+		android:id="@+id/grid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="grid样式"/>
+	<Button
+		android:id="@+id/view_pager"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="viewPager样式"/>
+	<Button
+		android:id="@+id/web_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="webView样式"/>
+	<Button
+		android:id="@+id/horizontal_scroll_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="horizontalScrollView样式"/>
+
+</LinearLayout>
